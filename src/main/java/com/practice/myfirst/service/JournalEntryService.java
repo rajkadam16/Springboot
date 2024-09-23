@@ -12,7 +12,7 @@ import java.util.Optional;
 @Component
 public class JournalEntryService {
 
-@Autowired
+    @Autowired
     private JournalEntryRepository journalEntryRepository;
 
     public void  saveEntry(JournalEntry journalEntry){
